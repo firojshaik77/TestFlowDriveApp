@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Bismillah\git\TestingFlowApp\TestFlowApp.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.FlowLoginWithPageFactory" hash-for-method="agreeTermPage">agreeTermPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.FlowLoginWithPageFactory" hash-for-method="testLoginPage(test, test123)">testLoginPage(test, test123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.FlowLoginWithPageFactory" hash-for-method="testLoginPage(test@test.com, test123)">testLoginPage(test@test.com, test123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.FlowLoginWithPageFactory" hash-for-method="testSignUpPage(Firoj3, Tester3, Apr, 26, 1980, firojshaik77@gmail.com, yo317py, test, testings1, testings2)">testSignUpPage(Firoj3, Tester3, Apr, 26, 1980, firojshaik77@gmail.com, yo317py, test, testings1, testings2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.FlowLoginWithPageFactory" hash-for-method="testSignUpPage(Firoj5, Tester5, Mar, 28, 1980, test, yo317py, test, testings1, testings1)">testSignUpPage(Firoj5, Tester5, Mar, 28, 1980, test, yo317py, test, testings1, testings1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.FlowLoginWithPageFactory" hash-for-method="testSignUpPage(Firoj4, Tester4, Jan, 27, 2010, firojshaik77@gmail.com, yo317py, test, testings1, testings1)">testSignUpPage(Firoj4, Tester4, Jan, 27, 2010, firojshaik77@gmail.com, yo317py, test, testings1, testings1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.FlowLoginWithPageFactory" hash-for-method="testSignUpPage(First1, Tester1, Feb, 24, 1985, firojshaik77@gmail.com, yo317py, test, testing, testing)">testSignUpPage(First1, Tester1, Feb, 24, 1985, firojshaik77@gmail.com, yo317py, test, testing, testing)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.FlowLoginWithPageFactory" hash-for-method="testSignUpPage(Firoj2, Tester2, Mar, 25, 1984, firojshaik77@gmail.com, yo317py, test, testings, testings)">testSignUpPage(Firoj2, Tester2, Mar, 25, 1984, firojshaik77@gmail.com, yo317py, test, testings, testings)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.FlowLoginWithPageFactory" hash-for-method="testSignUpPage(testdataname1, testdatasurname1, Jan, 24, 1980, firojshaik.testing18@gmail.com, yo317py, test, testi...)">testSignUpPage(testdataname1, testdatasurname1, Jan, 24, 1980, firojshaik.testing18@gmail.com, yo317py, test, testi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.FlowLoginWithPageFactory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="agreeTermPage">
+                  </a> <!-- agreeTermPage -->
+                  <span class="method-name">agreeTermPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPage(test, test123)">
+                  </a> <!-- testLoginPage(test, test123) -->
+                  <span class="method-name">testLoginPage</span>
+                  <span class="parameters">(test, test123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPage(test@test.com, test123)">
+                  </a> <!-- testLoginPage(test@test.com, test123) -->
+                  <span class="method-name">testLoginPage</span>
+                  <span class="parameters">(test@test.com, test123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpPage(Firoj3, Tester3, Apr, 26, 1980, firojshaik77@gmail.com, yo317py, test, testings1, testings2)">
+                  </a> <!-- testSignUpPage(Firoj3, Tester3, Apr, 26, 1980, firojshaik77@gmail.com, yo317py, test, testings1, testings2) -->
+                  <span class="method-name">testSignUpPage</span>
+                  <span class="parameters">(Firoj3, Tester3, Apr, 26, 1980, firojshaik77@gmail.com, yo317py, test, testings1, testings2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpPage(Firoj5, Tester5, Mar, 28, 1980, test, yo317py, test, testings1, testings1)">
+                  </a> <!-- testSignUpPage(Firoj5, Tester5, Mar, 28, 1980, test, yo317py, test, testings1, testings1) -->
+                  <span class="method-name">testSignUpPage</span>
+                  <span class="parameters">(Firoj5, Tester5, Mar, 28, 1980, test, yo317py, test, testings1, testings1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpPage(Firoj4, Tester4, Jan, 27, 2010, firojshaik77@gmail.com, yo317py, test, testings1, testings1)">
+                  </a> <!-- testSignUpPage(Firoj4, Tester4, Jan, 27, 2010, firojshaik77@gmail.com, yo317py, test, testings1, testings1) -->
+                  <span class="method-name">testSignUpPage</span>
+                  <span class="parameters">(Firoj4, Tester4, Jan, 27, 2010, firojshaik77@gmail.com, yo317py, test, testings1, testings1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpPage(First1, Tester1, Feb, 24, 1985, firojshaik77@gmail.com, yo317py, test, testing, testing)">
+                  </a> <!-- testSignUpPage(First1, Tester1, Feb, 24, 1985, firojshaik77@gmail.com, yo317py, test, testing, testing) -->
+                  <span class="method-name">testSignUpPage</span>
+                  <span class="parameters">(First1, Tester1, Feb, 24, 1985, firojshaik77@gmail.com, yo317py, test, testing, testing)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpPage(Firoj2, Tester2, Mar, 25, 1984, firojshaik77@gmail.com, yo317py, test, testings, testings)">
+                  </a> <!-- testSignUpPage(Firoj2, Tester2, Mar, 25, 1984, firojshaik77@gmail.com, yo317py, test, testings, testings) -->
+                  <span class="method-name">testSignUpPage</span>
+                  <span class="parameters">(Firoj2, Tester2, Mar, 25, 1984, firojshaik77@gmail.com, yo317py, test, testings, testings)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpPage(testdataname1, testdatasurname1, Jan, 24, 1980, firojshaik.testing18@gmail.com, yo317py, test, testi...)">
+                  </a> <!-- testSignUpPage(testdataname1, testdatasurname1, Jan, 24, 1980, firojshaik.testing18@gmail.com, yo317py, test, testi...) -->
+                  <span class="method-name">testSignUpPage</span>
+                  <span class="parameters">(testdataname1, testdatasurname1, Jan, 24, 1980, firojshaik.testing18@gmail.com, yo317py, test, testings1, testings1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Bismillah\git\TestingFlowApp\TestFlowApp.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.FlowLoginWithPageFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">FlowLogin</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">FlowSignUp</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSignUpPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSignUpPage')
+data.setCell(0, 2, 'test.FlowLoginWithPageFactory')
+data.setCell(0, 3, 136342);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSignUpPage')
+data.setCell(1, 2, 'test.FlowLoginWithPageFactory')
+data.setCell(1, 3, 127356);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSignUpPage')
+data.setCell(2, 2, 'test.FlowLoginWithPageFactory')
+data.setCell(2, 3, 125777);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSignUpPage')
+data.setCell(3, 2, 'test.FlowLoginWithPageFactory')
+data.setCell(3, 3, 125540);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSignUpPage')
+data.setCell(4, 2, 'test.FlowLoginWithPageFactory')
+data.setCell(4, 3, 117355);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSignUpPage')
+data.setCell(5, 2, 'test.FlowLoginWithPageFactory')
+data.setCell(5, 3, 112467);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLoginPage')
+data.setCell(6, 2, 'test.FlowLoginWithPageFactory')
+data.setCell(6, 3, 29880);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLoginPage')
+data.setCell(7, 2, 'test.FlowLoginWithPageFactory')
+data.setCell(7, 3, 28959);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'agreeTermPage')
+data.setCell(8, 2, 'test.FlowLoginWithPageFactory')
+data.setCell(8, 3, 10077);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.FlowLoginWithPageFactory</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">agreeTermPage</span>
+                <span class="method-start">35378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginPage(test@test.com, test123)</span>
+                <span class="method-start">45905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginPage(test, test123)</span>
+                <span class="method-start">75791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigateToSignUpPage</span>
+                <span class="method-start">104755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpPage(First1, Tester1, Feb, 24, 1985, firojshaik77@gmail.com, yo317py, test, testing, testing)</span>
+                <span class="method-start">105681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpPage(Firoj2, Tester2, Mar, 25, 1984, firojshaik77@gmail.com, yo317py, test, testings, testings)</span>
+                <span class="method-start">223040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpPage(Firoj3, Tester3, Apr, 26, 1980, firojshaik77@gmail.com, yo317py, test, testings1, testings2)</span>
+                <span class="method-start">348830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpPage(Firoj4, Tester4, Jan, 27, 2010, firojshaik77@gmail.com, yo317py, test, testings1, testings1)</span>
+                <span class="method-start">461309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpPage(Firoj5, Tester5, Mar, 28, 1980, test, yo317py, test, testings1, testings1)</span>
+                <span class="method-start">588680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpPage(testdataname1, testdatasurname1, Jan, 24, 1980, firojshaik.testing18@gmail.com, yo317py, test, testi...)</span>
+                <span class="method-start">714225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">850691 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

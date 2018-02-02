@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="815252" started-at="2018-02-01T19:19:16Z" finished-at="2018-02-01T19:32:51Z">
+    <groups>
+      <group name="FlowSignUp">
+        <method signature="FlowLoginWithPageFactory.testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:test.FlowLoginWithPageFactory@1ce92674]" name="testSignUpPage" class="test.FlowLoginWithPageFactory"/>
+      </group> <!-- FlowSignUp -->
+      <group name="FlowLogin">
+        <method signature="FlowLoginWithPageFactory.testLoginPage(java.lang.String, java.lang.String)[pri:1, instance:test.FlowLoginWithPageFactory@1ce92674]" name="testLoginPage" class="test.FlowLoginWithPageFactory"/>
+      </group> <!-- FlowLogin -->
+    </groups>
+    <test name="Test" duration-ms="815252" started-at="2018-02-01T19:19:16Z" finished-at="2018-02-01T19:32:51Z">
+      <class name="test.FlowLoginWithPageFactory">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.FlowLoginWithPageFactory@1ce92674]" name="setup" is-config="true" duration-ms="35328" started-at="2018-02-01T19:18:41Z" finished-at="2018-02-01T19:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="agreeTermPage()[pri:0, instance:test.FlowLoginWithPageFactory@1ce92674]" name="agreeTermPage" duration-ms="10077" started-at="2018-02-01T19:19:16Z" finished-at="2018-02-01T19:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agreeTermPage -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String, java.lang.String)[pri:1, instance:test.FlowLoginWithPageFactory@1ce92674]" name="testLoginPage" duration-ms="29880" started-at="2018-02-01T19:19:26Z" data-provider="userLogin" finished-at="2018-02-01T19:19:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String, java.lang.String)[pri:1, instance:test.FlowLoginWithPageFactory@1ce92674]" name="testLoginPage" duration-ms="28959" started-at="2018-02-01T19:19:56Z" data-provider="userLogin" finished-at="2018-02-01T19:20:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="navigateToSignUpPage()[pri:0, instance:test.FlowLoginWithPageFactory@1ce92674]" name="navigateToSignUpPage" is-config="true" duration-ms="694" started-at="2018-02-01T19:20:25Z" finished-at="2018-02-01T19:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignUpPage -->
+        <test-method status="PASS" signature="testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:test.FlowLoginWithPageFactory@1ce92674]" name="testSignUpPage" duration-ms="117355" started-at="2018-02-01T19:20:26Z" data-provider="userSignUp" finished-at="2018-02-01T19:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Feb]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[firojshaik77@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[yo317py]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method status="PASS" signature="testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:test.FlowLoginWithPageFactory@1ce92674]" name="testSignUpPage" duration-ms="125777" started-at="2018-02-01T19:22:24Z" data-provider="userSignUp" finished-at="2018-02-01T19:24:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firoj2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1984]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[firojshaik77@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[yo317py]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testings]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[testings]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method status="PASS" signature="testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:test.FlowLoginWithPageFactory@1ce92674]" name="testSignUpPage" duration-ms="112467" started-at="2018-02-01T19:24:29Z" data-provider="userSignUp" finished-at="2018-02-01T19:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firoj3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Apr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1980]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[firojshaik77@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[yo317py]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testings1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[testings2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method status="PASS" signature="testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:test.FlowLoginWithPageFactory@1ce92674]" name="testSignUpPage" duration-ms="127356" started-at="2018-02-01T19:26:22Z" data-provider="userSignUp" finished-at="2018-02-01T19:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firoj4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[firojshaik77@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[yo317py]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testings1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[testings1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method status="PASS" signature="testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:test.FlowLoginWithPageFactory@1ce92674]" name="testSignUpPage" duration-ms="125540" started-at="2018-02-01T19:28:29Z" data-provider="userSignUp" finished-at="2018-02-01T19:30:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firoj5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1980]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[yo317py]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testings1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[testings1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method status="PASS" signature="testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:test.FlowLoginWithPageFactory@1ce92674]" name="testSignUpPage" duration-ms="136342" started-at="2018-02-01T19:30:35Z" data-provider="userSignUp" finished-at="2018-02-01T19:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdataname1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testdatasurname1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1980]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[firojshaik.testing18@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[yo317py]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testings1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[testings1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.FlowLoginWithPageFactory@1ce92674]" name="afterSuite" is-config="true" duration-ms="5409" started-at="2018-02-01T19:32:51Z" finished-at="2018-02-01T19:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.FlowLoginWithPageFactory -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
